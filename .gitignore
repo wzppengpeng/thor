@@ -1,0 +1,11 @@
+# the build information
+build/
+
+# the lib file
+lib/
+
+# the bin file
+bin/
+
+# the json files
+*.json
