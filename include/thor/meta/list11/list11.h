@@ -1,6 +1,8 @@
 #ifndef THOR_META_LIST11_LIST11_H_
 #define THOR_META_LIST11_LIST11_H_
 
+// #define THOR_SUPPORT_CPP14
+
 #include "type_list.h"
 
 #include "algorithm/length.h"
@@ -23,5 +25,10 @@
 #include "algorithm/filter.h"
 #include "algorithm/reduce.h"
 #include "algorithm/sort.h"
+
+// the visit file
+#ifdef THOR_SUPPORT_CPP14
+#include "algorithm/visit.h"
+#endif
 
 #endif /*THOR_META_LIST11_LIST11_H_*/
